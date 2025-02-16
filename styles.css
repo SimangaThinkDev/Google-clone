@@ -1,0 +1,140 @@
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-item {
+    margin: 10px;
+}
+
+/* unvisited link */
+a:link {
+color: black;
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+color: black;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: black;
+text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+color: black;
+text-decoration: none;
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-input {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: calc(632 + 6px);
+    width: 584px;
+    max-width: 584px;
+    margin-top: 30px;
+}
+  
+.text-input:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: transparent;
+}
+
+.btn-google {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-google:hover {
+    border: 1px solid #f8f9fa71;
+}
+
+.p-advancedsearch {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid black;
+}
+
+.p-advanced {
+    font-size: 16px;
+    color: #333333;
+    padding: 10px;
+}
+
+.div-advanced {
+    margin: 20px;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.left {
+    width: 200px;
+}
+
+.right {
+    width: 386px;
+}
+
+.p-advanced-form {
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.btn-advanced {
+    box-shadow: none;
+    background: #66a1ff;
+    border-color: #8ab4f8;
+    color: white;
+}
+
+.nav-class {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 585px;
+    margin-top: 15px;
+}
